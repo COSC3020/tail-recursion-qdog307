@@ -18,3 +18,9 @@ Is the asymptotic complexity of tail-recursive Fibonacci different from the
 non-tail-recursive version? Why, or why not, and what is the complexity
 (worst-case $\Theta$)? Add your answer, including your reasoning, to this
 markdown file.
+
+For tail recursion  the final action is to call itself, so after the call there is nothing left to do. The two do differ as the non-tail-recursive has an exponential growth because of the calls growing. The complexity is $\Theta$(n)
+
+## Sources 
+
+For this I looked at the slides for DP and the hinted fibonaci. I then looked up what tail recursive means and that it is just the action of calling itself. The test code was generated from chatgpt  
